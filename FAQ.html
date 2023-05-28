@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Suzanne Collins Books</title>
+    <link rel = "stylesheet" href = "Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;0,700;1,100;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">GoodBooks<span>.</span></a>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navigation" id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="FAQ.html">FAQs</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+                
+                </ul>
+            </nav>
+    </header>
+    
+    <div class="about" id="faq-pic">
+        <h1> FAQs</h1>
+    </div>
+
+    <div class="box">
+        <h1 class="heading"> Frequently Asked Questions</h1>
+        <div class="faqs">
+            <details>
+                <summary>Where do you live?</summary>
+                <p class="text">SandHook, Connecticut</p>
+            </details>
+            <details>
+                <summary>What drew you to writing science fiction?</summary>
+                <p class="text">Telling a story in a futuristic world gives you this freedom to explore things that bother you in contemporary times.So, in the case of the Hunger Games, issues like the vast discrepancy of wealth, the power of television and how it's used to influence our lives, the possibility that the government could use hunger as a weapon, and then first and foremost to me, the issue of war.</p>
+            </details>
+            <details>
+                <summary>What's been the most memorable feedback you've gotten from teachers and kids?</summary>
+                <p class="text">One of the most memorable things I hear is when someone tells me that my books got a reluctant reader to read. They'll say, "You know, there's this kid and he wouldn't touch a book and his parents found him under a blanket with a flashlight after bedtime because he couldn't wait to find out what happened in the next chapter." That's just the best feeling.</p>
+            </details>
+            <details>
+                <summary>How many books have you written?</summary>
+                <p class="text">Four books in the Hunger Games series including the prequel. Five books in the Underland Chronicles. I write childrens' books as well. </p>
+            </details>
+            <details>
+                <summary>What was your first book?</summary>
+                <p class="text">Gregor the Overlander</p>
+            </details>
+            <details>
+                <summary>What were you doing before you started to write books?</summary>
+                <p class="text">I was a writer for childrens' television shows.</p>
+            </details>
+            <details>
+                <summary>Who is your favourite character in the Hunger Games?</summary>
+                <p class="text">Katniss, of course!</p>
+            </details>
+            <details>
+                <summary>Did you choose the cast for the Hunger Games?</summary>
+                <p class="text">Not all of them. I chose Jennifer Lawrence as Katniss, yes</p>
+            </details>
+            <details>
+                <summary>Did you write the screenplay for the Hunger Games?</summary>
+                <p class="text">I was one of the co-writers</p>
+            </details>
+            <details>
+                <summary>Are there any plans to write a sequel for the Hunger Games series?</summary>
+                <p class="text">Not for now</p>
+            </details>
+
+        </div>
+    </div>    
+
+    
+
+    <style>
+        
+
+        .box{
+            width:80%;
+            margin: 100px auto;
+            background:#a4ac86;
+            border-radius: 7px;
+            box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+        }
+
+        .box .heading{
+            background:#b6ad90;
+            border-radius: 7px 7px 0px 0px;
+            padding: 10px;
+            color:#606c38;
+            text-align: center;
+        }
+
+        .faqs{
+            padding: 0px 20px 20px;
+        }
+
+        details{
+            background: #b6ad90;
+            padding: 10px 20px;
+            border-radius: 7px;
+            margin-top: 20px;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        details summary{
+            outline: none;
+        }
+
+        #faq-pic{
+            background: url(Images/33.jpg);
+            background-repeat: no-repeat;
+        background-position: center;
+          background-size: cover;
+        }
+    </style>
+
+        
+
+        <section class="footer">
+            <h3>About us</h3>
+            <p>GoodBooks Publishing Rights © Suzanne Collins <br> © 2021 Suzanne Collins. All rights reserved. GoodBooks Has No Place In SurvivalTM.<br> All related titles, logos, symbols and characters are trademarks of Suzanne Collins.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            
+        </section>
+        <script>
+            function toggleMenu(){
+                const menuToggle = document.querySelector('.menuToggle');
+                const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+        </script>
+        </body>
+</html>

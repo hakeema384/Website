@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Suzanne Collins Books</title>
+    <link rel = "stylesheet" href = "Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;0,700;1,100;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">GoodBooks<span>.</span></a>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navigation" id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="FAQ.html">FAQs</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+                
+                </ul>
+            </nav>
+    </header>
+
+    <div class="about" id="gal-pic">
+        <h1> Gallery </h1>
+    </div>
+    
+    <section>
+        <div class="gal-border">
+            <h2>Memorable Moments</h2>
+            <hr>
+        </div>
+        <div class="gal-horizontal">
+           <div class="gal-vertical">
+               <a href="Images/Announcement.jpg" class="img">
+               <img src="Images/Announcement.jpg" > </a>
+               <h3>02.03.2020</h3>
+               <p>Announcing the release of her new book</p>
+           </div>
+           <div class="gal-vertical">
+               <a href="Images/Author'sGuildDinner.JPG" class="img">
+                   <img src="Images/Author'sGuildDinner.JPG" > </a>
+               <h3>06.09.2018</h3>
+               <p>At Author's Guild Dinner</p>
+           </div>
+           <div class="gal-vertical">
+               <a href="Images/CBCAward.jpg" class="img">
+                   <img src="Images/CBCAward.jpg" > </a>
+               <h3>07.07.2017</h3>
+               <p>At CBC Awards, 2017</p>
+           </div>
+       </div>        
+   </section>
+
+   <section>
+    <div class="gal-horizontal">
+       <div class="gal-vertical">
+           <a href="Images/ChristopherAward2014.jpg" class="img">
+           <img src="Images/ChristopherAward2014.jpg" > </a>
+           <h3>02.03.2014</h3>
+           <p>At Christopher Awards, 2014</p>
+       </div>
+       <div class="gal-vertical">
+           <a href="Images/teenchoiceawards.jpg" class="img">
+               <img src="Images/teenchoiceawards.jpg" > </a>
+           <h3>06.10.2015</h3>
+           <p>At Teen Choice Awards, 2015</p>
+       </div>
+       <div class="gal-vertical">
+           <a href="Images/scaward.jpg" class="img">
+               <img src="Images/scaward.jpg" > </a>
+           <h3>06.09.2016</h3>
+           <p>At Audie Award for Excellence in Design</p>
+       </div>
+   </div>        
+</section>
+
+<section>
+    <div class="gal-horizontal">
+       <div class="gal-vertical">
+           <a href="Images/THGCast.jpg" class="img">
+           <img src="Images/THGCast.jpg" > </a>
+           <h3>10.09.2014</h3>
+           <p>With The Hunger Games cast</p>
+       </div>
+       <div class="gal-vertical">
+           <a href="Images/JL.jpg" class="img">
+               <img src="Images/JL.jpg" > </a>
+           <h3>09.11.2015</h3>
+           <p>With Jennifer Lawrence at Film Festival, 2015</p>
+       </div>
+       <div class="gal-vertical">
+           <a href="Images/goodreadschoiceawards2009.jpg" class="img">
+               <img src="Images/goodreadschoiceawards2009.jpg" > </a>
+           <h3>06.06.2009</h3>
+           <p>At Goodreads Choice Awards, 2009</p>
+       </div>
+   </div>        
+</section>
+
+
+
+
+    <style>
+         section p{
+          font: 20px;
+          font-weight: 400;
+          color:#43291f;
+          padding-top:10px;
+          transform: translate(50px, 2px);
+          word-wrap: break-word;
+      }
+
+      section h3{
+          font-size: 1em;
+          font-weight: 400;
+          color: #432519;
+          padding-top: 10px;
+          font:30px;
+          transform: translate(50px, 2px);
+          word-wrap: break-word;
+      }
+
+      #gal-pic{
+        background: url(Images/gal.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+          background-size: cover;
+      }
+
+      .gal-border{
+          height: 100px;
+          width:100%;
+      }
+
+      .gal-border h2{
+        padding-top: 40px;
+        padding-left: 40px;
+        color:#606c38;
+        font-size: 36px;
+        font-weight: 400;
+      }
+
+      .gal-border hr{
+        width: 40%;
+          transform:translate(30px, 2px);
+      }
+
+     
+  @media screen and (max-width: 600px){
+      .gal-border hr{
+          transform: translate(100px, 2px);
+      }
+  }
+
+
+    </style>
+        
+        
+
+
+        
+
+        <section class="footer" id="none">
+            <h3>About us</h3>
+            <p>GoodBooks Publishing Rights © Suzanne Collins <br> © 2021 Suzanne Collins. All rights reserved. GoodBooks Has No Place In SurvivalTM.<br> All related titles, logos, symbols and characters are trademarks of Suzanne Collins.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            
+        </section>
+        <script>
+            function toggleMenu(){
+                const menuToggle = document.querySelector('.menuToggle');
+                const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+
+            $(".gal-horizontal").magnificPopup({
+                delegate:'a',
+                type: 'image',
+                gallery:{
+                    enabled:true
+                }
+            });
+        </script>
+        </body>
+</html>
